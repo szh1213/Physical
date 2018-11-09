@@ -1,6 +1,6 @@
 # physical-motion
 
-`
+```java
 float x;
 void setup()
 {
@@ -12,4 +12,4 @@ void draw()
   background(158);
   rect(x++,height/2,23,23);
 }
-`
+```
