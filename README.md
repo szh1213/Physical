@@ -9,7 +9,6 @@
 
 ---
 匀速运动（牛顿第一定律：匀速直线运动）
-​​
 ```java
 float x;	//运动方向	
 float force;	//运动推力
@@ -24,10 +23,10 @@ void draw() {
    rect(x+=force,5,50,50);	//x轴，y轴，z轴运动方法相同
 }
 ```
-​
-匀加速运动
 
-```java​​
+
+匀加速运动
+```java
 float x;	//运动方向	
 float force;	//运动推力
 
@@ -42,10 +41,8 @@ void draw() {
 }
 ```
 
-​
-变速运动
 
-​​
+变速运动
 ```java
 float x;  //运动方向  
 float force;  //运动推力
@@ -63,10 +60,8 @@ void draw()
 }
 ```
 
-​
-余弦运动
 
-​​
+余弦运动
 ```java
 float theta;
 
@@ -85,10 +80,8 @@ void draw()
 }
 ```
 
-​
-正弦运动
 
-​​
+正弦运动
 ```java
 float theta;
 
@@ -107,10 +100,8 @@ void draw()
 }
 ```
 
-​
-圆周运动
 
-​​
+圆周运动
 ```java
 float theta;
 
@@ -129,10 +120,8 @@ void draw()
 }
 ```
 
-​
-螺旋运动
 
-​​
+螺旋运动
 ```java
 float theta,r;
 
@@ -153,10 +142,8 @@ void draw()
 }
 ```
 
-​
-钟摆运动
 
-​​
+钟摆运动
 ```java
   PVector exy,lxy;
   float angle,aspeed,aspeedadd;
@@ -192,10 +179,8 @@ void draw()
 }
 ```
 
-​
-波形运动
 
-​​
+波形运动
 ```java
 float theta;
 void setup(){
@@ -212,7 +197,6 @@ void draw(){
 }
 ```
 
-​​
 ```java
 void setup(){
   size(666,666);
@@ -230,10 +214,8 @@ void draw(){
 }
 ```
 
-​
-随机运动
 
-​​
+随机运动
 ```java
 void setup()
 {
@@ -248,7 +230,7 @@ void draw()
 ```
 
 
-```java​​
+```java
 
   float x,y;
 
@@ -271,10 +253,7 @@ void draw() {
 ```
 
 
-​
 跟随运动
-
-​​
 ```java
 void setup()
 {
@@ -287,8 +266,6 @@ void draw()
 }
 ```
 
-
-​​
 ```java
 void setup()
 {
@@ -304,8 +281,7 @@ void draw()
 }
 ```
 
-
-```java​​
+```java
 
 void setup()
 {
@@ -325,10 +301,9 @@ void draw()
 }
 ```
 
-​
-噪音运动
 
-```java​​
+噪音运动
+```java
 
   float x,y,t1,t2;
 
@@ -356,10 +331,10 @@ void draw()
 }
 
 ```
-​
-鼠标运动
 
-```java​​
+
+鼠标运动
+```java
 
 void setup()
 {
@@ -374,10 +349,9 @@ void draw()
 }
 
 ```
-​
-键盘运动(w a s d 控制移动)
 
-​​
+
+键盘运动(w a s d 控制移动)
 ```java
   float x,y;
 void setup()
@@ -400,11 +374,11 @@ void draw()
 }
 
 ```
-​
+
+
 声控运动（使用麦克风大喊，矩形会运动）
 
-```java​​
-
+```java
 import processing.sound.*;      //插入声音库
 float x;
                             
